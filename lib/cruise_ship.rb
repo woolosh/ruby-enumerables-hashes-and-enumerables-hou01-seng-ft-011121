@@ -18,6 +18,6 @@ def select_winner(passengers)
       
     end
     
-    puts winner
+    puts passengers
     
 end
