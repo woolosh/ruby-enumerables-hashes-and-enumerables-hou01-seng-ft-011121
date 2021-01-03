@@ -11,12 +11,12 @@ require 'pry'
 def select_winner(passengers)
   
   winner = ""
-  
+  binding.pry
   passengers.each do |suite, name|
    
     if suite == :suite_a &&
       name.starts_with?("A")
-      binding.pry
+  
       winner = name
       
     end
