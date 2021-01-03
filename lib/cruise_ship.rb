@@ -19,4 +19,6 @@ def select_winner(passengers)
       
     end
     
+    return passengers
+    
 end
