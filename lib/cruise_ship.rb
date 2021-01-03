@@ -1,4 +1,3 @@
-require 'pry'
 
 # passengers = {
 # suite_a: "Amanda Presley", 
@@ -11,7 +10,7 @@ require 'pry'
 def select_winner(passengers)
   
   winner = ""
-  binding.pry
+
   passengers.each do |suite, name|
    
     if suite == :suite_a &&
@@ -23,3 +22,4 @@ def select_winner(passengers)
     
 end
 
+return winner
