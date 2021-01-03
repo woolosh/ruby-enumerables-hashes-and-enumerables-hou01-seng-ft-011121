@@ -16,8 +16,8 @@ def select_winner(passengers)
       
       winner << name
       
-      puts winner
-      
     end
+    
+    puts winner
     
 end
