@@ -1,3 +1,5 @@
+require 'pry'
+
 # passengers = {
 # suite_a: "Amanda Presley", 
 # suite_b: "Seymour Hoffman", 
@@ -11,15 +13,13 @@ def select_winner(passengers)
   winner = ""
   
   passengers.each do |suite, name|
-    
+    binding.pry
     if suite == :suite_a &&
       name.starts_with?("A")
       
       winner = name
       
     end
-    
-    winner
     
 end
 
